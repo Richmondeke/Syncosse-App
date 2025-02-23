@@ -69,3 +69,5 @@ export '/pages/mobile_screens/job_details2/job_details2_widget.dart'
     show JobDetails2Widget;
 export '/pages/auth_pages/choose_role_copy/choose_role_copy_widget.dart'
     show ChooseRoleCopyWidget;
+export '/admin_onboard_copy_copy3/admin_onboard_copy_copy3_widget.dart'
+    show AdminOnboardCopyCopy3Widget;

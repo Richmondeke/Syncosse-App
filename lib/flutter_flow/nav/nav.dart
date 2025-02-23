@@ -446,6 +446,11 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
               name: ChooseRoleCopyWidget.routeName,
               path: ChooseRoleCopyWidget.routePath,
               builder: (context, params) => ChooseRoleCopyWidget(),
+            ),
+            FFRoute(
+              name: AdminOnboardCopyCopy3Widget.routeName,
+              path: AdminOnboardCopyCopy3Widget.routePath,
+              builder: (context, params) => AdminOnboardCopyCopy3Widget(),
             )
           ].map((r) => r.toRoute(appStateNotifier)).toList(),
         ),
