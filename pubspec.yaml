@@ -131,9 +131,13 @@ dependencies:
   cupertino_icons: ^1.0.0
 
 dependency_overrides:
-  http: 1.2.2
+  http: ^1.2.2
   uuid: ^4.0.0
-  win32: 5.5.1
+  win32: ^5.5.1
+  firebase_core: ^2.24.2
+  firebase_auth: ^4.15.4
+  cloud_firestore: ^4.14.0
+
 
 dev_dependencies:
   flutter_launcher_icons: 0.13.1
